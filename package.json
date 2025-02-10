@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-currency-operations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node no-manual-currency-math.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "currency"
+  ],
+  "author": "Diego Araujo",
+  "license": "ISC",
+  "description": "Prevent problems with currency operations using floating point.",
+  "devDependencies": {
+    "eslint": "^9.20.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.20.0"
+  }
+}
