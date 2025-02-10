@@ -43,7 +43,7 @@ To setup in your project simply install as a dev dependency and then add it in t
 // eslint config
 {
     ...,
-    "plugins": ["@typescript-eslint", "testing-library", "currency-operations"],
+    "plugins": ["currency-operations"],
     "rules": {
             "currency-operations/no-manual-currency-math": "error"
     }
