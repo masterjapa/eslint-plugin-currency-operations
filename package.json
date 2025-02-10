@@ -1,7 +1,11 @@
 {
   "name": "eslint-plugin-currency-operations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masterjapa/eslint-plugin-currency-operations.git"
+  },
   "scripts": {
     "test": "node no-manual-currency-math.test.js"
   },
